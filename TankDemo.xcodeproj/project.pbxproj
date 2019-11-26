@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A094C3A205B0191008CA2AB /* FireButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094C35205B0190008CA2AB /* FireButton.swift */; };
+		0A094C3B205B0191008CA2AB /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094C36205B0190008CA2AB /* Joystick.swift */; };
+		0A094C3C205B0191008CA2AB /* TankShooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094C38205B0190008CA2AB /* TankShooting.swift */; };
+		0A094C3D205B0191008CA2AB /* TankMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094C39205B0190008CA2AB /* TankMovement.swift */; };
+		0A458B202069B11E00678202 /* ShellExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A458B1F2069B11E00678202 /* ShellExplosion.swift */; };
+		0A4C73A6206D238800BEBECB /* TankManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C73A5206D238800BEBECB /* TankManager.swift */; };
+		0A4C73A9206D281700BEBECB /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C73A8206D281700BEBECB /* GameManager.swift */; };
+		0A4D0E092055B70800C119B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0E022055B70800C119B6 /* Assets.xcassets */; };
+		0A4D0E0A2055B70800C119B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0E032055B70800C119B6 /* LaunchScreen.storyboard */; };
+		0A4D0E0B2055B70800C119B6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0E052055B70800C119B6 /* art.scnassets */; };
+		0A4D0E0C2055B70800C119B6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0E072055B70800C119B6 /* GameViewController.swift */; };
+		0A4D0E0D2055B70800C119B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0E082055B70800C119B6 /* AppDelegate.swift */; };
+		0A6078D5206A986B003A297C /* TankHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6078D4206A986B003A297C /* TankHealth.swift */; };
+		0A6078D8206A9E2E003A297C /* CameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6078D7206A9E2E003A297C /* CameraControl.swift */; };
+		49D5B726238DA72800CE0138 /* UnityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 49D5B725238DA72800CE0138 /* UnityKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A4D0E192056BE3D00C119B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A094C35205B0190008CA2AB /* FireButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireButton.swift; sourceTree = "<group>"; };
+		0A094C36205B0190008CA2AB /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		0A094C38205B0190008CA2AB /* TankShooting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankShooting.swift; sourceTree = "<group>"; };
+		0A094C39205B0190008CA2AB /* TankMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankMovement.swift; sourceTree = "<group>"; };
+		0A458B1F2069B11E00678202 /* ShellExplosion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellExplosion.swift; sourceTree = "<group>"; };
+		0A4C73A5206D238800BEBECB /* TankManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankManager.swift; sourceTree = "<group>"; };
+		0A4C73A8206D281700BEBECB /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		0A4D0DEA2055B56800C119B6 /* TankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D0DFB2055B56800C119B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D0E022055B70800C119B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4D0E042055B70800C119B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4D0E052055B70800C119B6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		0A4D0E072055B70800C119B6 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A4D0E082055B70800C119B6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A6078D4206A986B003A297C /* TankHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankHealth.swift; sourceTree = "<group>"; };
+		0A6078D7206A9E2E003A297C /* CameraControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4D0DE72055B56800C119B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D5B726238DA72800CE0138 /* UnityKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A094C34205B0190008CA2AB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0A094C35205B0190008CA2AB /* FireButton.swift */,
+				0A094C36205B0190008CA2AB /* Joystick.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0A094C37205B0190008CA2AB /* Tank */ = {
+			isa = PBXGroup;
+			children = (
+				0A094C39205B0190008CA2AB /* TankMovement.swift */,
+				0A094C38205B0190008CA2AB /* TankShooting.swift */,
+				0A6078D4206A986B003A297C /* TankHealth.swift */,
+				0A458B1F2069B11E00678202 /* ShellExplosion.swift */,
+			);
+			path = Tank;
+			sourceTree = "<group>";
+		};
+		0A4C73A7206D280600BEBECB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C73A8206D281700BEBECB /* GameManager.swift */,
+				0A4C73A5206D238800BEBECB /* TankManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0A4D0DE12055B56800C119B6 = {
+			isa = PBXGroup;
+			children = (
+				0A4D0DEC2055B56800C119B6 /* TankDemo */,
+				0A4D0DEB2055B56800C119B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4D0DEB2055B56800C119B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0DEA2055B56800C119B6 /* TankDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4D0DEC2055B56800C119B6 /* TankDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0E062055B70800C119B6 /* Classes */,
+				0A4D0E012055B70800C119B6 /* Resources */,
+				0A4D0DFB2055B56800C119B6 /* Info.plist */,
+			);
+			path = TankDemo;
+			sourceTree = "<group>";
+		};
+		0A4D0E012055B70800C119B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0E052055B70800C119B6 /* art.scnassets */,
+				0A4D0E022055B70800C119B6 /* Assets.xcassets */,
+				0A4D0E032055B70800C119B6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A4D0E062055B70800C119B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0E082055B70800C119B6 /* AppDelegate.swift */,
+				0A4D0E072055B70800C119B6 /* GameViewController.swift */,
+				0A4D0E1B2057497700C119B6 /* Scripts */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A4D0E1B2057497700C119B6 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C73A7206D280600BEBECB /* Managers */,
+				0A6078D6206A9E22003A297C /* Camera */,
+				0A094C37205B0190008CA2AB /* Tank */,
+				0A094C34205B0190008CA2AB /* UI */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		0A6078D6206A9E22003A297C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0A6078D7206A9E2E003A297C /* CameraControl.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4D0DE92055B56800C119B6 /* TankDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D0DFE2055B56800C119B6 /* Build configuration list for PBXNativeTarget "TankDemo" */;
+			buildPhases = (
+				0A4D0DE62055B56800C119B6 /* Sources */,
+				0A4D0DE72055B56800C119B6 /* Frameworks */,
+				0A4D0DE82055B56800C119B6 /* Resources */,
+				0A4D0E192056BE3D00C119B6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TankDemo;
+			packageProductDependencies = (
+				49D5B725238DA72800CE0138 /* UnityKit */,
+			);
+			productName = TankDemo;
+			productReference = 0A4D0DEA2055B56800C119B6 /* TankDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4D0DE22055B56800C119B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = kevinmalkic;
+				TargetAttributes = {
+					0A4D0DE92055B56800C119B6 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A4D0DE52055B56800C119B6 /* Build configuration list for PBXProject "TankDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4D0DE12055B56800C119B6;
+			packageReferences = (
+				49D5B724238DA72800CE0138 /* XCRemoteSwiftPackageReference "UnityKit" */,
+			);
+			productRefGroup = 0A4D0DEB2055B56800C119B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4D0DE92055B56800C119B6 /* TankDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4D0DE82055B56800C119B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0E0B2055B70800C119B6 /* art.scnassets in Resources */,
+				0A4D0E092055B70800C119B6 /* Assets.xcassets in Resources */,
+				0A4D0E0A2055B70800C119B6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4D0DE62055B56800C119B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A094C3D205B0191008CA2AB /* TankMovement.swift in Sources */,
+				0A458B202069B11E00678202 /* ShellExplosion.swift in Sources */,
+				0A4D0E0D2055B70800C119B6 /* AppDelegate.swift in Sources */,
+				0A4C73A9206D281700BEBECB /* GameManager.swift in Sources */,
+				0A094C3B205B0191008CA2AB /* Joystick.swift in Sources */,
+				0A094C3C205B0191008CA2AB /* TankShooting.swift in Sources */,
+				0A6078D5206A986B003A297C /* TankHealth.swift in Sources */,
+				0A6078D8206A9E2E003A297C /* CameraControl.swift in Sources */,
+				0A4D0E0C2055B70800C119B6 /* GameViewController.swift in Sources */,
+				0A094C3A205B0191008CA2AB /* FireButton.swift in Sources */,
+				0A4C73A6206D238800BEBECB /* TankManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A4D0E032055B70800C119B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0E042055B70800C119B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4D0DFC2055B56800C119B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A4D0DFD2055B56800C119B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4D0DFF2055B56800C119B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 586B4BE6BL;
+				INFOPLIST_FILE = TankDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinmalkic.TankDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4D0E002055B56800C119B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 586B4BE6BL;
+				INFOPLIST_FILE = TankDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinmalkic.TankDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4D0DE52055B56800C119B6 /* Build configuration list for PBXProject "TankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0DFC2055B56800C119B6 /* Debug */,
+				0A4D0DFD2055B56800C119B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D0DFE2055B56800C119B6 /* Build configuration list for PBXNativeTarget "TankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0DFF2055B56800C119B6 /* Debug */,
+				0A4D0E002055B56800C119B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49D5B724238DA72800CE0138 /* XCRemoteSwiftPackageReference "UnityKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salt-pepper-code/UnityKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49D5B725238DA72800CE0138 /* UnityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49D5B724238DA72800CE0138 /* XCRemoteSwiftPackageReference "UnityKit" */;
+			productName = UnityKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0A4D0DE22055B56800C119B6 /* Project object */;
+}

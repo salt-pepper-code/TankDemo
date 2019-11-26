@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UnityKit",
+        "repositoryURL": "https://github.com/salt-pepper-code/UnityKit.git",
+        "state": {
+          "branch": null,
+          "revision": "24bf99fdb0d132c54b71bba061ca167ad6cb8ad7",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
