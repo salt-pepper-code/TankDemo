@@ -30,7 +30,7 @@ class GameManager: MonoBehaviour {
     override func start() {
         Camera.main()?.addComponent(CameraControl.self)
         startGame()
-        gameObject?.scene?.printGameObjectsIgnoreUpdates()
+//        gameObject?.scene?.printGameObjectsIgnoreUpdates()
     }
 
     private func startGame() {
