@@ -181,7 +181,7 @@ class GameManager: MonoBehaviour {
     // TANK Creation
 
     @discardableResult func loadTank(_ property: TankProperty) -> GameObject? {
-        guard let scene = Scene.sharedInstance,
+        guard let scene = Scene.shared,
             let tank = GameObject(fileName: "Tank.scn", nodeName: "Tank")
             else { return nil }
 

@@ -70,7 +70,7 @@ class GameViewController: UIViewController {
         ground.addComponent(BoxCollider.self)
             .set(size: Vector3Nullable(nil, 8, nil))
             .set(center: Vector3Nullable(nil, -4, nil))
-
+        
         // GameManager
         let gameManager = GameObject(name: "GameManager")
         gameManager.addComponent(GameManager.self)
@@ -84,6 +84,8 @@ class GameViewController: UIViewController {
                 }
         }
         scene.addGameObject(gameManager)
+
+        Camera.main()?.allowHDR = true
     }
 
     func setup(joystick: Joystick) {

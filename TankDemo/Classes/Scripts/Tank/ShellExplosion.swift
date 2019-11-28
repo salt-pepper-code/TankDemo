@@ -35,7 +35,7 @@ class ShellExplosion: MonoBehaviour {
             targetHealth.takeDamage(damage)
         }
 
-        if let scene = Scene.sharedInstance {
+        if let scene = Scene.shared {
             let empty = GameObject()
             scene.addGameObject(empty)
             empty.transform.position = shellTransform.position
