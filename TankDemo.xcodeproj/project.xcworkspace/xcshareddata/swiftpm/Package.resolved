@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/salt-pepper-code/UnityKit.git",
         "state": {
           "branch": null,
-          "revision": "61533b97d9627e631df03e420129c8d3b74af637",
-          "version": "1.0.4"
+          "revision": "8f6136fe9a838df01158cd70936a5c79cf3c6f04",
+          "version": "1.0.6"
         }
       }
     ]
