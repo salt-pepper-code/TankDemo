@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "UnityKit",
-        "repositoryURL": "https://github.com/salt-pepper-code/UnityKit.git",
-        "state": {
-          "branch": "master",
-          "revision": "856a5189b94eeb68c1aa4132a73a5b5fc6c1e9d3",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "unitykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/salt-pepper-code/UnityKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "36fe46c3d47de737abcb87f4fa01c4d9f35cf88c"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
