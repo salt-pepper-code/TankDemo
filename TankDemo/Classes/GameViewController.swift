@@ -3,11 +3,11 @@ import SceneKit
 
 class GameViewController: UIViewController {
     override func loadView() {
-        self.view = UI.View.makeView(sceneName: "Scene.scn", options: UI.View.Options(showsStatistics: true))
+        self.view = UI.UIKitView.makeView(sceneName: "Scene.scn", options: UI.Options(showsStatistics: true))
     }
 
-    var sceneView: UI.View {
-        return self.view as? UI.View ?? UI.View(frame: .zero)
+    var sceneView: UI.UIKitView {
+        return self.view as? UI.UIKitView ?? UI.UIKitView(frame: .zero)
     }
 
     override func viewDidLoad() {

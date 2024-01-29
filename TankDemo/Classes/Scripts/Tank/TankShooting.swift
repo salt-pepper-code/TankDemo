@@ -67,7 +67,7 @@ class TankShooting: MonoBehaviour {
         shell.addComponent(Light.self)
             .configure {
                 $0.type = .omni
-                $0.color = Color(hexString: "#FFF02B")
+                $0.color = Color(hex: "#FFF02B")
                 $0.intensity = 200
                 $0.attenuationDistance = 0...10
                 $0.attenuationFalloffExponent = 2

@@ -110,7 +110,7 @@ public final class Joystick: MonoBehaviour {
             didStart = false
             onComplete?()
             resetPosition()
-        @unknown default:
+        default:
             break
         }
     }

@@ -33,7 +33,15 @@ class TankHealth: MonoBehaviour {
         // Setup Image components
         background.addComponent(UI.Image.self)
             .configure {
-                $0.loadImage(fileName: "HealthWheel.png", type: .filled(canvas.pixelSize()), color: Color(hexString: "#FFFFFF", alpha: 0.31))
+                $0.loadImage(
+                    fileName: "HealthWheel.png",
+                    type: .filled(
+                        canvas.pixelSize()
+                    ),
+                    color: Color(
+                        hex: "#FFFFFF4F" // 0.31 alpha
+                    )
+                )
             }
 
         fillImage = fillArea.addComponent(UI.Image.self)

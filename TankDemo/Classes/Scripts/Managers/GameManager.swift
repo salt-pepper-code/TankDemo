@@ -23,9 +23,11 @@ class GameManager: MonoBehaviour {
     var gameWinner: TankManager?
 
     var tanks = [TankManager]()
-    let tankProperties = [TankProperty(type: .player("Player"), spawnPosition: Vector3(0, 1, 0), color: Color(hexString: "#7ECE40")),
-                          TankProperty(type: .ennemy("Ennemy1"), spawnPosition: Vector3(-13, 1, -5), color: Color(hexString: "#E52E28")),
-                          TankProperty(type: .ennemy("Ennemy2"), spawnPosition: Vector3(3, 1, 30), color: Color(hexString: "#2A64B2"))]
+    let tankProperties = [
+        TankProperty(type: .player("Player"), spawnPosition: Vector3(0, 1, 0), color: Color(hex: "#7ECE40")),
+        TankProperty(type: .ennemy("Ennemy1"), spawnPosition: Vector3(-13, 1, -5), color: Color(hex: "#E52E28")),
+        TankProperty(type: .ennemy("Ennemy2"), spawnPosition: Vector3(3, 1, 30), color: Color(hex: "#2A64B2"))
+    ]
 
     override func start() {
         Camera.main()?.addComponent(CameraControl.self)
